@@ -69,7 +69,7 @@ The script `heateqn` produces a numerical solution to the heat equation. It is a
 
 ## JPEG compression 
 
-The script `jpegcompression` demonstrates how the 2-dimensional DCT can be used to compress image files. The default image provided is `bee.png`, but try experimenting with others. For a different level of compression, change the value of `quality` to any number between 0 and 100.
+The script `jpegcompression` demonstrates how the 2-dimensional DCT can be used to compress image files. The default image provided is `bee.png`, but try replacing it with other grayscale images. For a different level of compression, change the value of `quality` to any number between 0 and 100.
 
 # Other included functions
 
