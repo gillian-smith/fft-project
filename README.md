@@ -5,7 +5,7 @@ MATLAB code for a project on the Fast Fourier Transform
 
 ## FFT functions
 
-The function `my_fft` takes as input a row vector `f` and returns its discrete Fourier transform as a row vector `F`. If the length of `f` is a power of 2, then `F` will be the same length. If the length of `f` is not a power of 2, then `f` will be padded with zeroes so that its length is a power of 2, and `F` will be the DFT of the padded vector. The function `my_ifft` behaves similarly, but returns the inverse DFT.
+The function `my_fft` takes as input a row vector `f` and returns its discrete Fourier transform as a row vector `F`. If the length of `f` is a power of 2, then `F` will be the same length. If the length of `f` is not a power of 2, then `f` will be padded with zeroes so that its length is a power of 2, and `F` will be the DFT of the padded vector. If possible, it is best to avoid inputting vectors whose length is not a power of 2. The function `my_ifft` behaves similarly, but returns the inverse DFT.
 
 ```matlab
 >> f = rand(1,4) + 1i*rand(1,4)
