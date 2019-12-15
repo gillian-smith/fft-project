@@ -1,5 +1,5 @@
 # fft-project
-MATLAB code for a project on the Fast Fourier Transform
+MATLAB code for a project on the Fast Fourier Transform. The report can be found at https://github.com/gillian-smith/fft-project/blob/master/report.pdf.
 
 # Usage
 
